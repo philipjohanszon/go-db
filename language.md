@@ -22,6 +22,12 @@ NEEDS:
 
 - NODE, ATTRIBUTE, NEW VALUE
 
+### MAKE
+
+NEEDS:
+
+ - NODE, VALUES
+
 ## Query Keywords
 
 ## GET IDENTIFIER
