@@ -11,8 +11,7 @@ type StringListNode struct {
 	Value string
 }
 
-//Adds several nodes so that it wont loop several times to get to the end
-func (list *StringList) AddNodes(value string) {
+func (list *StringList) AddNode(value string) {
 	newNode := StringListNode{Next: nil, Value: value}
 
 	//Sets the end node to the new node for the currently last node and then it sets it for the list variable
