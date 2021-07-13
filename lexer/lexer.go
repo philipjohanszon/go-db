@@ -13,7 +13,7 @@ type Token struct {
 }
 
 var (
-	Commands = [5]string{"GRAB", "REMOVE", "CHANGE", "MAKE", "WHERE"}
+	Commands = [7]string{"GRAB", "REMOVE", "CHANGE", "MAKE", "WHERE", "LOAD", "CREATE"}
 )
 
 func Scan(data *string) (*[]Token, error) {
